@@ -54,4 +54,4 @@ Output JSON files are posted in [Output](Output) folder. There are 2 output file
 
 * Mongo DB is chosen as the database engine because it is faster than the tradional SQL Databases. 
 * Since MongoDB is the document database, storing the text documents & JSON type data is much suitable. 
-* Schema less database , preferred in storing the raw data. 
+* MongoDB is the schema less database , preferred in storing the raw data. 
