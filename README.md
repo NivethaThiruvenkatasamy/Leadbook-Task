@@ -33,8 +33,7 @@ All the python scipts were tested in **MacOS and Python 3.8.5**
 
 Test Cases were written using **`pytest`** framework. There are 3 test cases in the [Test-cases](Test-cases) directory. Here are the details
 
-* *Test Case 1* : [test_scrapping_company_index.py](Test-cases/test_scrapping_company_index.py)
-It validates the basic company details of the company detail     
+* *Test Case 1* : [test_scrapping_company_index.py](Test-cases/test_scrapping_company_index.py) 
 * *Test Case 2* : [test_company_profile.py](Test-cases/test_company_profile.py)
 * *Test Case 3* : [test_contact_details_parser.py](Test-cases/test_contact_details_parser.py)
 
