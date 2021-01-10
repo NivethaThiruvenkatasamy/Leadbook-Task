@@ -34,7 +34,6 @@ def Scrapping_fn(url):
     if request_code != requests.codes.ok:
         sleep(randint(60,80))
         page = requests.get(url,headers)
-    print (page.status_code)
     soup = BeautifulSoup(page.text, 'html.parser')
     return soup
 
