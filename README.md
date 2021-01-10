@@ -47,7 +47,7 @@ Output JSON files are posted in [Output](Output) folder. There are 2 output file
 #### Running the Script
 
 * Clone or download the `Leadbook-Task` repository locally 
-* Update the MongoDB `hostname`, `port`, `database`, `collection1`, 'collection2` , 'data_dir' in the **`configuration.ini`**
+* Update the MongoDB `hostname`, `port`, `database`, `collection1`, `collection2` , `data_dir` in the **`configuration.ini`**
 * Run the `Python-scripts/main.py` script in the terminal or command-prompt
 
 #### Why Mongo DB ? 
