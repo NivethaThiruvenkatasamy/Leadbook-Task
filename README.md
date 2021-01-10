@@ -2,6 +2,9 @@
 
 ### Overview
 
+Leadbook repo has 3 directories 
+* [Python-scripts](Python-scripts) - Contains the main.py and Configuration.ini
+* 
 
 ### Architecture of the Crawler
 
