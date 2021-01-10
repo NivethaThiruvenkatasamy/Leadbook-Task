@@ -14,7 +14,7 @@ All the python scipts were tested in **MacOS and Python 3.8.5**
 * **[Main.py](Python-scripts/main.py)** 
   - It is the main script which contains the functions and logic to perform crawling.
   - Crawler has 3 functions
-      - `**Scrapping_fn**` : Function to perform the data crawling of the given web url (complete page). Logic to handle requests error is implemented in this function. 
+      - **`Scrapping_fn`** : Function to perform the data crawling of the given web url (complete page). Logic to handle requests error is implemented in this function. 
       - `company_profiles_parser` : Function to parse the company profiles information including all the contact persons details.
       - `contact_details_parser` : Function to parse the contact details from the detailed contacts page. This function is called from the `company_profiles_parser` function to get the detailed contacts.
   - Once data is crawled and procesed in the required format, the data is exported as JSON file and Inserted into the MongoDB Collections using `insert_many`
