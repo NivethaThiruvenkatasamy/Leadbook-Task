@@ -25,6 +25,8 @@ Crawler is implemeted in a single module with 3 functions.
   - It is the basic configuration file which consists of different sections like **`GLOBAL, MONGODB and WEBPAGE`**. 
   - All the configuration details such as MongoDB credentials, Data Directory & Base_url to crawl is specified in the file.
 
+All the python scipts were tested in **MacOS and Python 3.8.5**
+
 #### Requirements to run the script
 * Python 3.7 & above
 * MongoDB
