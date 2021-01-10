@@ -1,11 +1,11 @@
 ## LEADBOOK PYTHON PROGRAMMING TASK
 
-### Overview
+### Overview of repo
 
 Leadbook repo has 3 directories 
 * [Python-scripts](Python-scripts) - Contains the `main.py` and `Configuration.ini` files
 * [Output](Output) - Contains the 2 output files (`company_index.json and company_profiles.json`)
-* [Test-cases](Test-cases) - Contains the 3 different 
+* [Test-cases](Test-cases) - Contains the 3 t 
 
 All the python scipts were tested in **MacOS and Python 3.8.5**
 
@@ -35,6 +35,8 @@ All the python scipts were tested in **MacOS and Python 3.8.5**
 There are 2 output files will be created after running the script. 
 
 #### TEST CASES 
+
+Test Cases were written using **`pytest`** framework. There are 3 test cases in the [Test-cases](Test-cases) directory. Here are the details
 
 * *Test Case 1* : [test_scrapping_company_index.py](Test-cases/test_scrapping_company_index.py)
 It validates the basic company details of the company detail     
