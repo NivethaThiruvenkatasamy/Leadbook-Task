@@ -19,7 +19,7 @@ Crawler is implemeted in a single script(`main.py`) with 3 functions. It also ha
       - **`contact_details_parser`** : Function to parse the contact details from the detailed contacts page. Some cleaning and processing of the data is also perfomed here. This function is called from the `company_profiles_parser` function to get the detailed contacts.
   - Once data is crawled and procesed in the required format, the data is exported as JSON file and also data is inserted into the MongoDB Collections using `insert_many`
 
-* **[Configuration.ini]**(Python-scripts/Configuration.ini)
+* **[Configuration.ini](Python-scripts/Configuration.ini)**
   - It is the basic configuration file which consists of different sections like **`GLOBAL, MONGODB and WEBPAGE`**. 
   - All the configuration details such as MongoDB credentials, Data Directory & Base_url to crawl is specified in the file.
 
