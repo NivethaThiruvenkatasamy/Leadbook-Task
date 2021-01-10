@@ -42,9 +42,7 @@ Test Cases were written using **`pytest`** framework. There are 3 test cases in 
 Output JSON files are posted in [Output](Output) folder. There are 2 output files
 
 1. `company_index.json` - It has all the basic details of all the companies (A to Z). 
-2. `company_profiles.json` - It has company profile details with all the contact details for first 50 Companies. (Limited it to 50 companies for purpose of 
-
-
+2. `company_profiles.json` - It has company profile details with all the contact details for first 50 Companies.
 
 #### Why Mongo DB ? 
 
