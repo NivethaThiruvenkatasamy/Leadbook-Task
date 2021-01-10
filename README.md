@@ -3,8 +3,15 @@
 ### Overview
 
 Leadbook repo has 3 directories 
-* [Python-scripts](Python-scripts) - Contains the main.py and Configuration.ini
+* [Python-scripts](Python-scripts) - Contains the main.py and Configuration.ini files
+* [Output](Output) - Contains the 2 output files (company_index.json and company_profiles.json)
 * 
+
+All the python scipts were tested in Mac OS and Python
+
+Requirements to run the script
+* Python 3.7 & above
+* MongoDB
 
 ### Architecture of the Crawler
 
