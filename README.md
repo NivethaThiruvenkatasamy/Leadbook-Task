@@ -9,7 +9,7 @@ Leadbook repo has 3 directories
 
 ### Architecture of the Crawler
 
-Crawler is implemeted in a single script(`main.py`) with 3 functions. It also has the configuration file(`Configuration.ini`)
+Crawler is implemeted in a single script(`main.py`) with 3 functions. It also has the configuration file(`configuration.ini`)
 
 * **[Main.py](Python-scripts/main.py)** 
   - It is the main script which contains the functions and logic to perform crawling.
@@ -47,7 +47,7 @@ Output JSON files are posted in [Output](Output) folder. There are 2 output file
 #### Running the Script
 
 * Clone or download the `Leadbook-Task` repository locally 
-* Modify the MongoDB `hostname`, `port`, `Database name`, `Collections name` in the **`congfiguration.ini`**
+* Update the MongoDB `hostname`, `port`, `database`, `collection1`, 'collection2` , 'data_dir' in the **`configuration.ini`**
 * Run the `Python-scripts/main.py` script in the terminal or command-prompt
 
 #### Why Mongo DB ? 
