@@ -7,7 +7,7 @@ Leadbook repo has 3 directories
 * [Output](Output) - Contains the 2 output files (company_index.json and company_profiles.json)
 * [Test-cases](Test-cases) - Contains the 3 different 
 
-All the python scipts were tested in MacOS and Python 3.8.5
+All the python scipts were tested in **MacOS and Python 3.8.5**
 
 ### Architecture of the Crawler
 
