@@ -44,9 +44,9 @@ Output JSON files are posted in [Output](Output) folder. There are 2 output file
 1. `company_index.json` - It has all the basic details of all the companies (A to Z). 
 2. `company_profiles.json` - It has company profile details with all the contact details for first 50 Companies.
 
-#### Execution of the Script
+#### Running the Script
 
-* Clone or download the `Leadbook-Task` repositoy locally 
+* Clone or download the `Leadbook-Task` repository locally 
 * Modify the MongoDB `hostname`, `port`, `Database name`, `Collections name` in the **`congfiguration.ini`**
 * Run the `Python-scripts/main.py` script in the terminal or command-prompt
 
