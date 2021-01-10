@@ -179,7 +179,6 @@ print (datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Company Profile Crawling
 
 #Declaring empty output list of to store the Company Details
 company_profiles_list = []
-i = 0
 for company in company_index_list:
     try:
         company_profiles = company_profiles_parser(company)
@@ -187,9 +186,6 @@ for company in company_index_list:
     except:
         pass
     sleep(randint(4,10))
-    if i > 50:
-        break
-    i=i+1
     print (datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Company Profile Crawling in-progress...")
 print (datetime.now().strftime('%Y-%m-%d %H:%M:%S') + " Company Profile Crawling Complete")
 
