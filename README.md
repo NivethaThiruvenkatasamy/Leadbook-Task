@@ -3,9 +3,9 @@
 ### Overview of repo
 
 Leadbook repo has 3 directories 
-* [Python-scripts](Python-scripts) - Contains the `main.py` and `Configuration.ini` files
-* [Test-cases](Test-cases) - Contains the 3 test-case files (`test_scrapping_company_index.py`, `test_company_profile.py` and `test_contact_details_parser.py`)
-* [Output](Output) - Contains the 2 output files (`company_index.json` and `company_profiles.json`) for reference
+* [Python-scripts](Python-scripts) - Contains the `main.py` and `Configuration.ini` files.
+* [Test-cases](Test-cases) - Contains the 3 test-case files (`test_scrapping_company_index.py`, `test_company_profile.py` and `test_contact_details_parser.py`).
+* [Output](Output) - Contains the 2 output files (`company_index.json` and `company_profiles.json`) for reference. 
 
 ### Architecture of the Crawler
 
@@ -37,3 +37,16 @@ Test Cases were written using **`pytest`** framework. There are 3 test cases in 
 * *Test Case 2* : [test_company_profile.py](Test-cases/test_company_profile.py)
 * *Test Case 3* : [test_contact_details_parser.py](Test-cases/test_contact_details_parser.py)
 
+#### Output Files
+
+Output JSON files are posted in [Output](Output) folder. There are 2 output files
+
+1. `company_index.json` - It has all the basic details of all the companies (A to Z). 
+2. `company_profiles.json` - It has company profile details with all the contact details for first 50 Companies. (Limited it to 50 companies for purpose of 
+
+
+
+#### Why Mongo DB ? 
+
+* Mongo DB is chosen as the database engine because it is faster than the tradional SQL Databases. 
+* Unstructured data can be stored in the MongoDB.
