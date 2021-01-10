@@ -16,6 +16,8 @@ Requirements to run the script
 ### Architecture of the Crawler
 
 * Main.py - It is the main script which contains the functions and logic to perform crawling. 
+* Configuration.ini 
+  - It is the basic configuration file which consists of different sections like *GLOBAL, MONGODB & WEBPAGE*  
 
 #### Input
 
