@@ -10,7 +10,6 @@ Created on Sat Jan 09 2021
 import requests
 from requests import get
 from bs4 import BeautifulSoup
-import pandas as pd
 import string 
 import re
 import json
